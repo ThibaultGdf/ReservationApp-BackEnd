@@ -4,8 +4,7 @@ const { Reservation } = require('../db.js');
 
 /* GET home page. */
 
-
-router.get('/', async (req, res, next) => { // Définit une route HTTP GET sur le chemin racine ("/").
+router.get('/reservations', async (req, res, next) => { // Définit une route HTTP GET sur le chemin racine ("/").
 
     // Commence un bloc try-catch pour gérer les erreurs potentielles.
     try {

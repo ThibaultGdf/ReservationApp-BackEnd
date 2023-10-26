@@ -5,6 +5,7 @@ const reservationsRouter = require("./reservations.js");
 const usersRouter = require("./users.js");
 const roomsRouter = require("./rooms.js");
 const spotsRouter = require("./spots.js");
+const authRouter = require("./auth.js");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -15,5 +16,7 @@ router.use(reservationsRouter);
 router.use(usersRouter);
 router.use(roomsRouter);
 router.use(spotsRouter);
+router.use(authRouter);
+
 
 module.exports = router;

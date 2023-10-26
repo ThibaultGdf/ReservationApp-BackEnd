@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+// COMMANDE : npx install express
+
 /**
  * Module dependencies.
  */
